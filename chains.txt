@@ -31,3 +31,9 @@ prompt_routes=[
         }
     ]
 
+****************************** Bonus Things
+Difference Betweeen the ChatPromptTemplate and Prompt Template
+--> The Differnce Between the ChatPromptTemplate and PromptTemplate is 
+-->Prompt Template -- handles the string prompt only and convert them to Langchain Prompt 
+-->ChatPromptTemplate --> Takes into the consideration of the Chat Prompt which has roles assigned to with one role as user and another role as the assistant.
+
