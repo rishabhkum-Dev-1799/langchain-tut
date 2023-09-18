@@ -18,4 +18,16 @@ For Example
 
 Steps 2) To create the prompt Routes for the used workflow template
 For Example
+prompt_routes=[
+        {
+            'name':'Order Workflow',
+            'description':'Answers related to the customer orders',
+            'prompt_templates':order_workflow_template
+        },
+        {
+            'name':'Default Workflow',
+            'description':'Answers related to the Default Customer Questions',
+            'prompt_templates':default_workflow_template
+        }
+    ]
 
